@@ -25,7 +25,3 @@ print(numbers)
 
 def try_modify_string(s):
     s = "new value"
-
-text = "original"
-try_modify_string(text)
-print(text)
