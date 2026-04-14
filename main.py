@@ -2,10 +2,10 @@ def greet(name):
     """This code prints out greeting"""
     print("hello", name, "! How are you doing?")
 
-greet("Mehtab Ahmed")
+greet("Fahad Mehmood")
 
-for: global variables:
-    y = 20
+#for global_variables
+y = 20
 def access_global():
     print("global variable y:", y)
 access_global()
@@ -20,10 +20,10 @@ def modify_list(lst):
     lst.append(4)
 
 numbers = [1,2,3]
-modify_list(numbers)a
+modify_list(numbers)
 print(numbers)
 
-def try_modify_string():
+def try_modify_string(s):
     s = "new value"
 
 text = "original"
